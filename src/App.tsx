@@ -1,11 +1,9 @@
-import MyDrawer from "./components/drawer/topDrawer";
-import Top_with_list from "./components/drawer/top_with_list";
+import LogoutDialog from "./components/dialog/logoutDialog";
 
 const App = () => {
   return (
     <div>
-      {/* <MyDrawer /> */}
-      {/* <Top_with_list /> */}
+      <LogoutDialog />
     </div>
   );
 };
